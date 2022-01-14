@@ -1,0 +1,56 @@
+* {
+    text-align: center;
+    max-width: 100%;
+    background-color: aliceblue;
+    color: brown;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    margin: auto;
+    margin-top: 2px;
+}
+
+h2 {
+    margin-bottom: 0%;
+    color: black;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+ul {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.link a {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    width: 55%;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="home.html" onclick="filterObjects('all')">Home</a>
+        <div id="button">
+            <button class="btn" onclick="filterObjects('all')">Show All</button>
+            <button class="btn" onclick="filterObjects('Lenovo')">Lenovo</button>
+            <button class="btn" onclick="filterObjects('HP')">HP</button>
+            <button class="btn" onclick="filterObjects('Acer')">Acer</button>
+            <button class="btn" onclick="filterObjects('Dell')">Dell</button>
+            <div class="aa">
+                <a href="login.html">Log out</a>
+                <a href="about.html">About Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="objects">
+        <div class="row">
+            <div class="box Lenovo">
+                <img src="../images/laptop_imgs/k.jpg" class="img">
+                <p>CPU:I3 8th Gen</p>
+                <p>Price $899</p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+            <div class="box Lenovo"><img src="../images/laptop_imgs/a.jpeg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+            <div class="box Lenovo"><img src="../images/laptop_imgs/b.jpg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+            <div class="box Lenovo"><img src="../images/laptop_imgs/c.png" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+
+
+
+
+            <div class="box HP"><img src="../images/laptop_imgs/e.jpg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+            <div class="box HP"><img src="../images/laptop_imgs/f.jpeg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+
+
+
+            <div class="box Acer"><img src="../images/laptop_imgs/i.jpg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+
+
+
+            <div class="box Dell"><img src="../images/laptop_imgs/f.jpeg" class="img">
+                <p>CPU:I3 8th Gen<br>Price $899<br></p><button class="buy" onClick="return confirm('Thank you for your Parchase')">Buy</button>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="../scripts.js"></script>
+</body>
+
+</html>
